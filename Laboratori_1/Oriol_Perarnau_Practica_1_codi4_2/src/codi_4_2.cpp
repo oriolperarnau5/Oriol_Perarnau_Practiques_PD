@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#define LED_PIN 48  // Cambia este pin por uno disponible en tu ESP32-S3
+#define LED_PIN 48  
 void setup() {
    pinMode(LED_PIN, OUTPUT);
    Serial.begin(115200);
